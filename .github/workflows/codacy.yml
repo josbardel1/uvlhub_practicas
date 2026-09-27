@@ -48,7 +48,7 @@ jobs:
 
     - name: Check for vulnerabilities
       run: |
-        pip-audit .
+        pip-audit pyproject.toml
 
     - name: Run tests with coverage
       run: |
